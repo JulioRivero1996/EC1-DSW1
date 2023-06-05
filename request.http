@@ -1,4 +1,4 @@
-POST http://localhost:8090/ws   
+POST http://localhost:8090/wsec1e1   
 Content-Type: text/xml
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
@@ -6,7 +6,7 @@ Content-Type: text/xml
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getCountryRequest>
-         <gs:name>Peru</gs:name>
+         <gs:name>Viernes</gs:name>
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
